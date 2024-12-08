@@ -1,0 +1,46 @@
+.product-card {
+    background-color: #1f1f1f; /* Dark gray card background */
+    border-radius: 8px;
+    display: flex;
+    padding: 16px;
+    margin: 16px 0;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /*Subtle shadow for depth */
+    transition: transform 0.2s ;
+    cursor:pointer;
+}
+
+ .product-card:hover {
+      transform: scale(1.1);/* Slight zoom effect on hover  */
+} 
+
+/* Styling for product images */
+.product-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    margin-right: 40px;
+    object-fit: cover;
+    border: 1px solid #e50914; /* Netflix red border for emphasis */
+}
+
+/* Styling for product information */
+.product-info {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Styling for the product name */
+.product-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff; /* White for clean contrast */
+}
+
+/* Styling for the product price */
+.product-price {
+    color: #e50914; /* Netflix red */
+    font-size: 1.2em;
+    font-weight: 500;
+}

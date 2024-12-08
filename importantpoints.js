@@ -1,0 +1,7 @@
+// In JavaScript, if you don't explicitly use return in an arrow function (or use return in a regular function), it will not render anything.
+//always put any javascript object in {} if u are return it in <div></div> if u dont put it in {} then it will not be considered as javascript object hence it will be printed on the screen as it is
+// import Product from"./Product.jsx"// Product might be a funciton component returned from the "Product.jsx" file . it is important to add "./" before a file name also keep it in double quotes
+// repeat(3, 1fr) is shorthand for defining 3 equal-width columns. 1fr stands for "1 fraction" of the available space. So, repeat(3, 1fr) means you want 3 columns, each taking up one-third of the available space If the container width is 900px, each column will take up 300px (minus any gaps).
+//The variable prevProducts is not explicitly defined by you, but it's automatically provided by the setProducts function when you're using the functional update form.prevProducts refers to the current value of products before the update
+//In React, when you pass a function to an event handler like onSubmit, you don't call the function directly (i.e., without parentheses). Instead, you pass the function reference itself, and React will call it when the event happens.
+//. { ...updatedProduct, naam: e.target.value }This creates a new object:Copies all properties of the existing updatedProduct object using the spread operator.Updates the naam property to the value entered by the user.
